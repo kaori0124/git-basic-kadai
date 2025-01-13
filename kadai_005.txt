@@ -1,11 +1,32 @@
-commit cb69045554303f49ad58e931198b9aeff3271e8e (HEAD -> main)
-Author: kaori0124 <gyayukyo0124@gmail.com>
-Date:   Sun Dec 29 07:39:26 2024 +0900
-
-    日本語訳を追加
-
-commit de69694ecefd38fb7fc31fecdebe101da27bb8ea
-Author: kaori0124 <gyayukyo0124@gmail.com>
-Date:   Sun Dec 29 07:32:57 2024 +0900
-
-    hello_world.txtを追加
+PS C:\Users\kaori\HTMLCSSでコーポレートサイトを作ろう\Socialtech> cd
+PS C:\Users\kaori\HTMLCSSでコーポレートサイトを作ろう\Socialtech> cd C:\Users\kaori\git_challenge
+PS C:\Users\kaori\git_challenge> git add hello_world.txt
+PS C:\Users\kaori\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 7b0f399] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\kaori\git_challenge> git push -u origin main
+Enter passphrase for key '/c/Users/kaori/.ssh/id_rsa': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 266 bytes | 266.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:kaori0124/git_challenge.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\kaori\git_challenge> git add hello_world.txt
+PS C:\Users\kaori\git_challenge> git commit -m "日本語を追加"         
+[main eda66a0] 日本語を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\kaori\git_challenge> git push -u origin main
+Enter passphrase for key '/c/Users/kaori/.ssh/id_rsa': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 318 bytes | 318.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:kaori0124/git_challenge.git
+   7b0f399..eda66a0  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\kaori\git_challenge> git log --oneline
+eda66a0 (HEAD -> main, origin/main) 日本語を追加
+7b0f399 hello_world.txtを追加
